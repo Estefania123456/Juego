@@ -1,0 +1,50 @@
+
+ .altura {
+   height: 150px !important; 
+   border-radius: 15px;
+}
+.tiempo-agotado {
+   color: rgb(243, 212, 212);
+   font-size: 25px;
+}
+.tablero div img:hover {
+   transform: scale(1.2);
+   box-shadow: -6px 5px 26px 3px rgba(255, 255, 255, 0.62);
+}
+.fondo1, .fondo2, .fondo3 {
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   width: 100vw;
+}
+.fondo1 {
+   background-image: url("https://www.blogdelfotografo.com/wp-content/uploads/2021/12/Fondo_Negro_Marmol-mini.webp");
+}
+.fondo2 {
+   background-image: url("https://www.blogdelfotografo.com/wp-content/uploads/2021/12/Fondo_Negro_Marmol-mini.webp");
+}
+.fondo3 {
+   background-image: url("https://www.blogdelfotografo.com/wp-content/uploads/2021/12/Fondo_Negro_Marmol-mini.webp");
+}
+
+/* Media Queries para adaptarse a diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+   .fondo1, .fondo2, .fondo3 {
+       height: 80vh;
+       width: 100%;
+   }
+}
+
+@media (max-width: 768px) {
+   .fondo1, .fondo2, .fondo3 {
+       height: 60vh;
+       width: 100%;
+   }
+}
+
+@media (max-width: 480px) {
+   .fondo1, .fondo2, .fondo3 {
+       height: 50vh;
+       width: 100%;
+   }
+}
